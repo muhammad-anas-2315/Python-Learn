@@ -1,0 +1,12 @@
+
+ This is new linedard and safest way to handle reading and
+    writing files is by using the with open() statement (context manager),
+which automatically ensures that files are properly closed after your operations complete.
+
+Python provides built-in functions for creating, reading, and writing files. Python can handle two types of files:
+
+Text files: Each line of text is terminated with a special character called EOL (End of Line), which is new line character ('
+') in Python by default.
+Binary files: There is no terminator for a line and data is stored after converting it into a machine-understandable binary format.
+ This is new line
+ This is new line
